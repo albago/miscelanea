@@ -1,0 +1,19 @@
+<!-- <p style="font-size: 30px"> -->
+<!-- <p [ngStyle]="{'font-size': tamanoletra + 'px'}"> -->
+<!-- <p [style.fontSize]="'30px'"> -->
+<p [style.fontSize.px]="tamanoletra">
+    Hola curso de angular!
+</p>
+
+<button class="btn btn-primary mr-5" (click)="tamanoletra = tamanoletra + 10">
+    + 10
+</button>
+
+<button class="btn btn-primary" (click)="tamanoletra = tamanoletra - 10">
+    - 10
+</button>
+
+
+<h4>El parámetro enviado es: {{parametroruta}}</h4>
+
+<h4>{{datosService.datodelServicio}}</h4>

@@ -1,0 +1,7 @@
+<h4>SOY EL HIJO</h4>
+
+<p *ngIf="mensajedelpadre">Mensaje del padre: {{mensajedelpadre}}</p>
+
+<button class="btn btn-info" (click)="responderalpadre()" *ngIf="mensajedelpadre">Responder al padre</button>
+
+<h4>{{datosService.datodelServicio}}</h4>
